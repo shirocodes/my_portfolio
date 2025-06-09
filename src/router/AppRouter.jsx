@@ -22,6 +22,9 @@ const AppRouter = () => {
             <Route path='portfolio' element={<PortfolioLayout />}>
                 <Route index element={<PortfolioOverview />}/>
                 <Route path=":projectId" element={<ProjectDetail />}/>
+                
+                {/*handle 404 */}
+                <Route path="*" element={<h2>Page Not Found</h2>} />
             </Route>
         </Routes>
     )
