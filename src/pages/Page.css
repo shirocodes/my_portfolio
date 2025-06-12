@@ -1,0 +1,13 @@
+.portfolio-btns .btn-primary {
+  background-color: #e122c1;
+  border-color: #da1758;
+}
+
+.portfolio-btns .btn-primary:hover {
+    background-color: #450337;
+}
+
+.portfolio-btns .btn-outline-secondary:hover {
+  background-color: #c69bc9;
+  color: #e91e63;
+}
